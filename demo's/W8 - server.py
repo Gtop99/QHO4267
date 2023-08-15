@@ -16,3 +16,8 @@ def movies(n=5):
     for i in range(n):
         genre = input("Enter your favourite movie genre: ")
         movie[genre] = movie.get(genre, 0) + 1
+    return movie
+
+print(movies(2))
+
+
